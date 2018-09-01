@@ -158,7 +158,7 @@ pkg install php -y
 pkg install curl -y 
 pkg install openssh -y
 pkg install grep -y
-pip3 install wget -y
+pip3 install wget
 git clone https://github.com/An0nUD4Y/SocialFish
 cd SocialFish
 chmod 777 SocialFish.py
