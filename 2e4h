@@ -158,10 +158,11 @@ pkg install php -y
 pkg install curl -y 
 pkg install openssh -y
 pkg install grep -y
+pkg install unzip -y
 pip3 install wget
-git clone https://github.com/An0nUD4Y/SocialFish
+git clone https://github.com/UndeadSec/SocialFish.git
 cd SocialFish
-chmod 777 SocialFish.py
+pip install -r requirements.txt
 echo "##################################" | lolcat
 echo "SocialFish Telah Sukses Terinstall" | lolcat
 echo "##################################" | lolcat
