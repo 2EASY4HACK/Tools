@@ -77,7 +77,7 @@ sleep 3
 cd $HOME && ./msfconsole
 fi
 
-if [ $gg =2 ] || [ $gg = 2 ]
+if [ $gg = 2 ] || [ $gg = 2 ]
 then
 clear
 pkg update -y
@@ -93,7 +93,7 @@ sleep 3
 cd $HOME && tmuxbunch
 fi
 
-if [ $gg =3 ] || [ $gg = 3 ]
+if [ $gg = 3 ] || [ $gg = 3 ]
 then
 clear
 pkg update -y
