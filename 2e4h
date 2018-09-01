@@ -57,7 +57,7 @@ To Easy For Hacktivias:v
 ******Special Tools*******
 30. Install Blackarch
 ----------######----------" | lolcat 
-read -p "root@2E4H #:" | lolcat $gg;
+read -p "root@2E4H #:" gg
 
 if [ $gg = 1 ] || [ $gg = 1 ]
 then
@@ -73,7 +73,7 @@ cd /data/data/com.termux/files/home && bundle install
 echo "**********************************" | lolcat
 echo "Metasploit Telah Sukses Terinstall" | lolcat
 echo "**********************************" | lolcat
-sleep 3
+sleep 1
 cd $HOME && ./msfconsole
 fi
 
@@ -89,7 +89,7 @@ cd Tmux-Bunch && bash setup
 echo "**********************************" | lolcat
 echo "Tmux-Bunch Telah Sukses Terinstall" | lolcat
 echo "**********************************" | lolcat
-sleep 3
+sleep 1
 cd $HOME && tmuxbunch
 fi
 
@@ -104,5 +104,5 @@ rm -f ngrok-stable-linux-arm.zip
 echo "*****************************" | lolcat
 echo "Ngrok Telah Sukses Terinstall" | lolcat
 echo "*****************************" | lolcat
-sleep 3
+sleep 1
 fi
